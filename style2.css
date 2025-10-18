@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(243, 202, 255);
+    font-family: "Segoe UI", Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ======== TEXTOS ======== */
+p {
+    font-size: large;
+    text-align: justify;
+    font-family: "Segoe UI", Verdana, Geneva, sans-serif;
+    line-height: 1.6;
+    margin: 10px 25px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Trebuchet MS", sans-serif;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+li {
+    font-size: large;
+    text-align: center;
+    font-family: "Segoe UI", Verdana, Geneva, sans-serif;
+}
+
+ol {
+    text-align: center;
+}
+
+/* ======== SECCIONES Y DIVS ======== */
+div.uno {
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* 💡 Parte superior (dos imágenes + nombres) en la misma fila */
+div.Sabor2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: nowrap; /* mantiene todo en una sola fila */
+    margin: 20px 0;
+}
+
+div.dos {
+    background-color: rgb(238, 235, 85);
+    text-align: center;
+    border: solid 1.5px black;
+    border-radius: 15px;
+    width: 35%;
+    padding: 15px;
+}
+
+/* ======== SECCIÓN DE PRODUCTOS ======== */
+div.tres {
+    background-color: rgb(100, 36, 71);
+    text-align: center;
+    border: solid 1.5px black;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+div.producto {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+/* ======== TABLA ======== */
+table, tr, th, td {
+    border: 1px solid black;
+    background-color: rgb(238, 235, 85);
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    font-size: large;
+    text-align: center;
+    font-family: "Segoe UI", Verdana, Geneva, sans-serif;
+    padding: 10px;
+}
+
+/* ======== IMÁGENES ======== */
+img {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ======== VIDEO Y TEXTO FINAL ======== */
+div.cuatro {
+    background-color: rgb(100, 36, 71);
+    text-align: justify;
+    border: solid 1.5px black;
+    border-radius: 15px;
+    width: 65%; /* más ancho */
+    padding: 25px 35px;
+    margin: 15px;
+    color: white;
+}
+
+div.cinco {
+    background-color: rgb(100, 36, 71);
+    text-align: center;
+    border: solid 1.5px black;
+    border-radius: 15px;
+    width: auto;
+    padding: 10px;
+    margin: 15px;
+}
+
+video {
+    border-radius: 12px;
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+video:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ======== PIE DE PÁGINA ======== */
+footer {
+    background-color: rgb(1, 48, 148);
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(253, 250, 34);
+    text-align: center;
+    font-size: xx-large;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.img{
+    display: flex;
+}
+
+

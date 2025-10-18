@@ -1,0 +1,104 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+    background-color: rgb(205, 255, 201);
+    font-family: "Segoe UI", Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ======== ENCABEZADO ======== */
+header {
+    background-color: rgb(1, 48, 148);
+    color: rgb(253, 250, 34);
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+header:hover {
+    background-color: rgb(3, 62, 180);
+    transform: scale(1.02);
+}
+
+/* ======== TÍTULOS ======== */
+h2 {
+    color: rgb(15, 10, 10);
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 25px 10px 10px 10px;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+/* ======== PÁRRAFOS ======== */
+p {
+    font-size: large;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== IMÁGENES ======== */
+center img {
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+center img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* ======== PIE DE PÁGINA ======== */
+footer {
+    background-color: rgb(1, 48, 148);
+    font-family: fantasy;
+    color: rgb(253, 250, 34);
+    text-align: center;
+    font-size: xx-large;
+    padding: 15px 0;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+footer:hover {
+    background-color: rgb(3, 62, 180);
+    transform: scale(1.02);
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) {
+    p {
+        width: 95%;
+        font-size: medium;
+    }
+
+    center img {
+        height: 180px;
+    }
+
+    header, footer {
+        font-size: x-large;
+    }
+}
